@@ -7,6 +7,7 @@
 
 #include <list>
 
+using namespace std;
 
 template<class T>
 class Queue{
@@ -35,3 +36,5 @@ T Queue<T>::dequeue(){
   lst.pop_front();
   return ret;
 }
+
+#endif
